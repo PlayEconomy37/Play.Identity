@@ -1,4 +1,4 @@
-// This package provides a convenience wrapper around Go's golang.org/x/crypto/argon2
+// Package argon2id provides a convenience wrapper around Go's golang.org/x/crypto/argon2
 // implementation, making it simpler to securely hash and verify passwords
 // using Argon2.
 //
