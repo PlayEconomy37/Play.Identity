@@ -1,0 +1,22 @@
+{
+  "Address": "localhost:4445",
+  "ServiceName": "identity",
+  "Authority": "http://localhost:4445",
+  "Db": {
+    "Dsn": "postgres://postgres:password@localhost:5433/identity_test?sslmode=disable",
+    "MaxOpenConns": 25,
+    "MaxIdleConns": 25,
+    "MaxIdleTimeMS": 900000
+  },
+  "Smtp": {
+    "Host": "localhost",
+    "Port": 8025,
+    "Sender": "Greenlight <no-reply@greenlight.alexedwards.net>"
+  },
+  "RabbitMQ": {
+    "Host": "localhost",
+    "Port": 5672,
+    "User": "guest",
+    "Password": "guest"
+  }
+}

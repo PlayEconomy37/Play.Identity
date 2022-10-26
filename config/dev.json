@@ -1,0 +1,24 @@
+{
+  "Address": "localhost:4445",
+  "ServiceName": "identity",
+  "Authority": "http://localhost:4445",
+  "DB": {
+    "Dsn": "postgres://postgres:password@localhost:5433/identity?sslmode=disable",
+    "MaxOpenConns": 25,
+    "MaxIdleConns": 25,
+    "MaxIdleTimeMS": 900000
+  },
+  "SMTP": {
+    "Host": "smtp.mailtrap.io",
+    "Port": 2525,
+    "Username": "9f205a216fa37a",
+    "Password": "ec724cba131709",
+    "Sender": "Greenlight <no-reply@greenlight.alexedwards.net>"
+  },
+  "RabbitMQ": {
+    "Host": "localhost",
+    "Port": 5672,
+    "User": "guest",
+    "Password": "guest"
+  }
+}
